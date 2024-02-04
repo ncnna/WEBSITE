@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Calligraffitti|Mali");
+/* @import url("https://fonts.googleapis.com/css?family=Calligraffitti|Mali"); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300&display=swap');
 /* ganeral style */
 :root {
   --mainYellow: #fdbe02;
@@ -6,6 +7,9 @@
   --mainBlack: #071013;
   --mainGrey: #9b9999;
   --TransGrey: rgba(0, 0, 0, 0.1);
+}
+*{
+    font-family: 'Noto Sans Thai', sans-serif;
 }
 body {
   color: var(--mainBlack);
